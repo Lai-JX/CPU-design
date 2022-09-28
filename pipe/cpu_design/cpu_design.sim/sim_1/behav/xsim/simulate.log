@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               455000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5175000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383

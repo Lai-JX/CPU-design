@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 14 19:15:57 2022
+# Process ID: 31400
+# Current directory: C:/CPU/CPU_final/流水线/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16980 C:\CPU\CPU_final\流水线\cpu_design\cpu_design.xpr
+# Log file: C:/CPU/CPU_final/流水线/cpu_design/vivado.log
+# Journal file: C:/CPU/CPU_final/流水线/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CPU/CPU_final/流水线/cpu_design/cpu_design.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lenovo/Desktop/7.13-2/cpu_design' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2018.3/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 14 21:37:47 2022...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul  8 23:53:27 2022
+# Process ID: 5616
+# Current directory: C:/CPU/7.8-3/tesbench/tesbench/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36284 C:\CPU\7.8-3\tesbench\tesbench\cpu_design\cpu_design.xpr
+# Log file: C:/CPU/7.8-3/tesbench/tesbench/cpu_design/vivado.log
+# Journal file: C:/CPU/7.8-3/tesbench/tesbench/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CPU/7.8-3/tesbench/tesbench/cpu_design/cpu_design.xpr
+update_compile_order -fileset sources_1

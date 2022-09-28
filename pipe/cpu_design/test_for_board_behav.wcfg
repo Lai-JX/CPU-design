@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_for_board_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_for_board" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="176270000fs"></ZoomStartTime>
+      <ZoomEndTime time="241670001fs"></ZoomEndTime>
+      <Cursor1Time time="185000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/test_for_board/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/device_sw" type="array">
+      <obj_property name="ElementShortName">device_sw[23:0]</obj_property>
+      <obj_property name="ObjectShortName">device_sw[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/led_en" type="array">
+      <obj_property name="ElementShortName">led_en[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_en[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/led_c" type="array">
+      <obj_property name="ElementShortName">led_c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/led" type="array">
+      <obj_property name="ElementShortName">led[23:0]</obj_property>
+      <obj_property name="ObjectShortName">led[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_led_digit/wdata_reg" type="array">
+      <obj_property name="ElementShortName">wdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/pc_if" type="array">
+      <obj_property name="ElementShortName">pc_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_if[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/pc_id" type="array">
+      <obj_property name="ElementShortName">pc_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/pc_ex" type="array">
+      <obj_property name="ElementShortName">pc_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/npc" type="array">
+      <obj_property name="ElementShortName">npc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/ex_alu_c" type="array">
+      <obj_property name="ElementShortName">ex_alu_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_alu_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/pc_mem" type="array">
+      <obj_property name="ElementShortName">pc_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/ex_A" type="array">
+      <obj_property name="ElementShortName">ex_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/ex_B" type="array">
+      <obj_property name="ElementShortName">ex_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/rd2_sel" type="array">
+      <obj_property name="ElementShortName">rd2_sel[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2_sel[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/rd1_sel" type="array">
+      <obj_property name="ElementShortName">rd1_sel[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1_sel[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_RF/regts" type="array">
+      <obj_property name="ElementShortName">regts[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regts[1:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/ex_rd" type="array">
+      <obj_property name="ElementShortName">ex_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/mem_rd" type="array">
+      <obj_property name="ElementShortName">mem_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs1_id_wb_mem_con" type="logic">
+      <obj_property name="ElementShortName">rs1_id_wb_mem_con</obj_property>
+      <obj_property name="ObjectShortName">rs1_id_wb_mem_con</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs2_id_wb_mem_con" type="logic">
+      <obj_property name="ElementShortName">rs2_id_wb_mem_con</obj_property>
+      <obj_property name="ObjectShortName">rs2_id_wb_mem_con</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs1_id_wb_ex_con" type="logic">
+      <obj_property name="ElementShortName">rs1_id_wb_ex_con</obj_property>
+      <obj_property name="ObjectShortName">rs1_id_wb_ex_con</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_for_board/U_top/u_cpu_top/u_Forward/rs2_id_wb_ex_con" type="logic">
+      <obj_property name="ElementShortName">rs2_id_wb_ex_con</obj_property>
+      <obj_property name="ObjectShortName">rs2_id_wb_ex_con</obj_property>
+   </wvobject>
+</wave_config>

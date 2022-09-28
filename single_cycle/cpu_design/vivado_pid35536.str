@@ -1,0 +1,130 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 35536
+License: Customer
+
+Current time: 	Sat Jul 09 12:07:14 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2240x1400
+Screen resolution (DPI): 144
+Available screens: 1
+Available disk space: 22 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx_2018.3/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx_2018.3/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	LJX
+User home directory: C:/Users/LJX
+User working directory: C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx_2018.3/Vivado
+HDI_APPROOT: D:/Xilinx_2018.3/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx_2018.3/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx_2018.3/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/LJX/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/LJX/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/LJX/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx_2018.3/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design/vivado.log
+Vivado journal file location: 	C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design/vivado.jou
+Engine tmp dir: 	C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design/.Xil/Vivado-35536-LAPTOP-MU98BJHP
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx_2018.3/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx_2018.3/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx_2018.3/Vivado/2018.3
+XILINX_SDK: D:/Xilinx_2018.3/SDK/2018.3
+XILINX_VIVADO: D:/Xilinx_2018.3/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx_2018.3/Vivado/2018.3
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 618 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\CPU\7.8-3\tesbench\tesbench\realize_pass\cpu_design\cpu_design.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// Tcl Message: open_project C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design/cpu_design.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+112980kb) [00:00:11]
+// [Engine Memory]: 648 MB (+528214kb) [00:00:11]
+// [GUI Memory]: 123 MB (+7832kb) [00:00:12]
+// [Engine Memory]: 681 MB (+608kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2668 ms.
+// Tcl Message: open_project C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design/cpu_design.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lenovo/Desktop/7.8-2/tesbench/tesbench/realize/cpu_design' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2018.3/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 60 MB. Current time: 7/9/22, 12:07:17 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 736.832 ; gain = 114.824 
+// Project name: cpu_design; location: C:/CPU/7.8-3/tesbench/tesbench/realize_pass/cpu_design; part: xc7a100tfgg484-1
+// [Engine Memory]: 766 MB (+53211kb) [00:00:15]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_Bus : Bus (Bus.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_cpu_top : cpu_top (cpu_top.v)]", 5, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_cpu_top : cpu_top (cpu_top.v), u_PC : PC (PC.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_cpu_top : cpu_top (cpu_top.v), u_PC : PC (PC.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_cpu_top : cpu_top (cpu_top.v), u_PC : PC (PC.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 132 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu_top.v", 2); // k (j, cp)
+// Elapsed time: 949 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 3); // k (j, cp)
+selectCodeEditor("PC.v", 281, 462); // cl (w, cp)
+typeControlKey((HResource) null, "PC.v", 'c'); // cl (w, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  2686775 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 787 MB. GUI used memory: 64 MB. Current time: 7/9/22, 1:19:37 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  37765 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 721ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2286 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2069 ms. Increasing delay to 6207 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1028 ms.

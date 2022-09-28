@@ -1,0 +1,348 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul  8 08:58:25 2022
+# Process ID: 7124
+# Current directory: C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8208 C:\Users\lenovo\Desktop\7.8-1\tesbench\tesbench\cpu_design\cpu_design.xpr
+# Log file: C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/param.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/ip/dram/sim/dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/ip/prgrom/sim/prgrom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prgrom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/ip/cpuclk/cpuclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/Bus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/Button.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Button
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/LOAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LOAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/Led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Led
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/NPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/SEXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/Switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/led_digit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_digit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/test_for_board.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_for_board
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=33,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.cpuclk_clk_wiz
+Compiling module xil_defaultlib.cpuclk
+Compiling module xil_defaultlib.LOAD
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.SEXT
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.RF
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.prgrom
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dram
+Compiling module xil_defaultlib.DRAM
+Compiling module xil_defaultlib.led_digit
+Compiling module xil_defaultlib.Switch
+Compiling module xil_defaultlib.Led
+Compiling module xil_defaultlib.Button
+Compiling module xil_defaultlib.Bus
+Compiling module xil_defaultlib.cpu_top
+Compiling module xil_defaultlib.test_for_board
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_for_board_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_for_board_behav -key {Behavioral:sim_1:Functional:test_for_board} -tclbatch {test_for_board.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source test_for_board.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_cpu_top.U0_irom.inst at time                    0 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.U0_irom.inst is       16383
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_for_board_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 929.902 ; gain = 10.566
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_cpu_top.U0_irom.inst at time                    0 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.U0_irom.inst is       16383
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_cpu_top.U0_irom.inst at time                    0 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.U0_irom.inst is       16383
+run 10 us
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2085000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2325000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2965000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3205000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3485000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3605000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3725000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3885000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4165000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4605000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5485000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5805000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5925000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              6165000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+run 10 us
+run 10 us
+run 10 us
+run 10 ms
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 929.902 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/Users/lenovo/Desktop/7.8-1/tesbench/tesbench/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_cpu_top.U0_irom.inst at time                    0 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.U0_irom.inst is       16383
+run 10 ms
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2085000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2325000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              2965000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3205000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3485000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3605000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3725000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              3885000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4165000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4605000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              4845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5485000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5805000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              5925000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst at time              6165000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_cpu_top.u_Bus.u_DRAM.u_dram.inst is       16383
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 929.902 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  8 09:03:26 2022...

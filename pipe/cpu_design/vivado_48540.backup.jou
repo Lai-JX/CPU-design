@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul 20 16:37:48 2022
+# Process ID: 48540
+# Current directory: C:/CPU/CPU_final/流水线/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48304 C:\CPU\CPU_final\流水线\cpu_design\cpu_design.xpr
+# Log file: C:/CPU/CPU_final/流水线/cpu_design/vivado.log
+# Journal file: C:/CPU/CPU_final/流水线/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CPU/CPU_final/流水线/cpu_design/cpu_design.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {70} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {42} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12} CONFIG.CLKOUT1_JITTER {304.472} CONFIG.CLKOUT1_PHASE_ERROR {310.955}] [get_ips cpuclk]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {60} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKOUT0_DIVIDE_F {14} CONFIG.CLKOUT1_JITTER {313.062}] [get_ips cpuclk]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run cpuclk_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {75} CONFIG.MMCM_DIVCLK_DIVIDE {4} CONFIG.MMCM_CLKFBOUT_MULT_F {33} CONFIG.MMCM_CLKOUT0_DIVIDE_F {11} CONFIG.CLKOUT1_JITTER {272.433} CONFIG.CLKOUT1_PHASE_ERROR {261.747}] [get_ips cpuclk]
+reset_run cpuclk_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

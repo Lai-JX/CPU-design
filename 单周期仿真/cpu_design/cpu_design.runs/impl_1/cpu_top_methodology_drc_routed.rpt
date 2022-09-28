@@ -1,0 +1,386 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jul  8 08:41:03 2022
+| Host         : 507-43 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file cpu_top_methodology_drc_routed.rpt -pb cpu_top_methodology_drc_routed.pb -rpx cpu_top_methodology_drc_routed.rpx
+| Design       : cpu_top
+| Device       : xc7a100tfgg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 70
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 2          |
+| TIMING-20 | Warning  | Non-clocked latch            | 68         |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell u_Control/alu_op_reg[3]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_Control/alu_op_reg[0]/CLR, u_Control/alu_op_reg[1]/CLR, u_Control/alu_op_reg[2]/CLR, u_Control/alu_op_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell u_PC/pc[31]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_PC/flag_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[0] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[10] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[11] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[12] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[13] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[14] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[15] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[16] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[17] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[18] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[19] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[1] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[20] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[21] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[22] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[23] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[24] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[25] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[26] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[27] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[28] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[29] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[2] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[30] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[31] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[3] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[4] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[5] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[6] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[7] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[8] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch u_Bus/u_led_digit/wdata_reg_reg[9] cannot be properly analyzed as its control pin u_Bus/u_led_digit/wdata_reg_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch u_Control/alu_op_reg[0] cannot be properly analyzed as its control pin u_Control/alu_op_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch u_Control/alu_op_reg[1] cannot be properly analyzed as its control pin u_Control/alu_op_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch u_Control/alu_op_reg[2] cannot be properly analyzed as its control pin u_Control/alu_op_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch u_Control/alu_op_reg[3] cannot be properly analyzed as its control pin u_Control/alu_op_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[0] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[10] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[11] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[12] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[13] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[14] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[15] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[16] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[17] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[18] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[19] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[1] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[20] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[21] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[22] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[23] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[24] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[25] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[26] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[27] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[28] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[29] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[2] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[30] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[31] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[3] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[4] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[5] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[6] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[7] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[8] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch u_LOAD/ram_wb_reg[9] cannot be properly analyzed as its control pin u_LOAD/ram_wb_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+

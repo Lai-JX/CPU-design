@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul 13 21:31:46 2022
+# Process ID: 18072
+# Current directory: E:/cpu/7.8-3-pass/tesbench/tesbench/realize_pass/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16580 E:\cpu\7.8-3-pass\tesbench\tesbench\realize_pass\cpu_design\cpu_design.xpr
+# Log file: E:/cpu/7.8-3-pass/tesbench/tesbench/realize_pass/cpu_design/vivado.log
+# Journal file: E:/cpu/7.8-3-pass/tesbench/tesbench/realize_pass/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/cpu/7.8-3-pass/tesbench/tesbench/realize_pass/cpu_design/cpu_design.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lenovo/Desktop/7.8-2/tesbench/tesbench/realize/cpu_design' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 716.500 ; gain = 85.914
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 13 21:53:27 2022...

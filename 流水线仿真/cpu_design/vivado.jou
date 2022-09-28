@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 15 12:12:58 2022
+# Process ID: 17832
+# Current directory: C:/CPU/CPU_final/流水线仿真/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20596 C:\CPU\CPU_final\流水线仿真\cpu_design\cpu_design.xpr
+# Log file: C:/CPU/CPU_final/流水线仿真/cpu_design/vivado.log
+# Journal file: C:/CPU/CPU_final/流水线仿真/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CPU/CPU_final/流水线仿真/cpu_design/cpu_design.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_for_board.tcl
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+close_sim

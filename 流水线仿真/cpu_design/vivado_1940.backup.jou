@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 14 09:11:47 2022
+# Process ID: 1940
+# Current directory: C:/Users/lenovo/Desktop/7.13-ten/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7560 C:\Users\lenovo\Desktop\7.13-ten\cpu_design\cpu_design.xpr
+# Log file: C:/Users/lenovo/Desktop/7.13-ten/cpu_design/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/7.13-ten/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/7.13-ten/cpu_design/cpu_design.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_for_board.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim

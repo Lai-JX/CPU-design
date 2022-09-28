@@ -1,0 +1,1053 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 14 20:09:10 2022
+# Process ID: 31776
+# Current directory: C:/CPU/CPU_final/单周期仿真/cpu_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32456 C:\CPU\CPU_final\单周期仿真\cpu_design\cpu_design.xpr
+# Log file: C:/CPU/CPU_final/单周期仿真/cpu_design/vivado.log
+# Journal file: C:/CPU/CPU_final/单周期仿真/cpu_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.xpr
+INFO: [Project 1-313] Project file moved from 'C:/CPU/7.8-3/tesbench/tesbench/cpu_design' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2018.3/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/param.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/ip/dram/sim/dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/ip/prgrom/sim/prgrom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prgrom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Bus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/LOAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LOAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Led
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/NPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/SEXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/led_digit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_digit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/test_for_board.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_for_board
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.LOAD
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.SEXT
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.RF
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.prgrom
+Compiling module xil_defaultlib.cpu_top
+Compiling module xil_defaultlib.Bus
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dram
+Compiling module xil_defaultlib.DRAM
+Compiling module xil_defaultlib.led_digit
+Compiling module xil_defaultlib.Switch
+Compiling module xil_defaultlib.Led
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test_for_board
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_for_board_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/xsim.dir/test_for_board_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 14 20:11:10 2022...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 889.355 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_for_board_behav -key {Behavioral:sim_1:Functional:test_for_board} -tclbatch {test_for_board.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source test_for_board.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_for_board_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 889.355 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/param.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/ip/dram/sim/dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/ip/prgrom/sim/prgrom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prgrom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Bus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/LOAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LOAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Led
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/NPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/SEXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/Switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/led_digit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_digit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CPU/CPU_final/单周期仿真/cpu_design/test_for_board.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_for_board
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.LOAD
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.SEXT
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.RF
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.prgrom
+Compiling module xil_defaultlib.cpu_top
+Compiling module xil_defaultlib.Bus
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dram
+Compiling module xil_defaultlib.DRAM
+Compiling module xil_defaultlib.led_digit
+Compiling module xil_defaultlib.Switch
+Compiling module xil_defaultlib.Led
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test_for_board
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_for_board_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 889.355 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              3445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              6445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              8145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             11445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             12645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             19845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             20545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             23845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             24645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             25245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             26045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             30345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              3445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              6445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              8145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             11445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             12645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             19845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             20545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             23845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             24645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             25245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             26045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             30345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              3445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              6445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              8145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             11445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             12645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             19845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             20545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             23845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             24645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             25245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             26045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             30345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             31745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             32345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             34145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             35845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             36345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             36945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             42545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             43145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             43845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             49445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             55045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             55645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             56345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             61245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             61845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             62545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             62845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             63345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             64445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             65145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             65945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             66645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             69645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             70345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             71145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             71745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             72445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             73145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             73845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             74745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             75645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             76645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             77645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             78845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             79745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             80845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             81745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             82345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             83045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             83545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             83945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             84445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             84845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             85445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             86345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             87145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             87745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             88545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             89345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             91545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             92945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             94245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             94945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             98645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             99145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             99745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            100445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            101045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            103445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            106045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            107745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            109445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            109645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            110645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            111345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            113145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            113745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            115445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            116945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            117445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            118045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            118745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            120145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            121045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            121945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            122645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            127945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            128145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            128545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            129145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            129845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            130345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            131045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            131845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            136745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            137445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            138645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            140445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            143045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            144745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            146445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            146645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            147645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            148345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            148845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            149345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            150145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            150745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            152445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            153945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            154445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            155045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            155645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            156345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            157045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            157745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            158645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            159545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            160245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            160545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time            160945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx_2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_for_board' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/dram_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/prgrom.mif'
+INFO: [SIM-utils-43] Exported 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim/data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_for_board_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 625604a5d6604a098a6bee6f271823cb --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_for_board_behav xil_defaultlib.test_for_board xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/cpu_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'a' [C:/CPU/CPU_final/单周期仿真/cpu_design/cpu_design.srcs/sources_1/new/DRAM.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time               645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              1845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              2645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              3445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              4745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              5745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              6445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              7545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              8145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time              9745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             10845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             11445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             12645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             13645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             14745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             19845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             20545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             21945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             22945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             23845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             24645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             25245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             26045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             29745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             30345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             31745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             32345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             34145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             35845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             36345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             36945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             42545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             43145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             43845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             49445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             55045000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             55645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             56345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             61245000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             61845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             62545000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             62845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             63345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             64445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             65145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             65945000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             66645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             69645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             70345000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+run 10 us
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             71145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             71745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             72445000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             73145000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             73845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             74745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             75645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             76645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             77645000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             78845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             79745000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+WARNING in test_for_board.U_top.u_DRAM.u_dram.inst at time             80845000 ns: 
+Reading from out-of-range address. Max address in test_for_board.U_top.u_DRAM.u_dram.inst is       16383
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 14 21:37:04 2022...
