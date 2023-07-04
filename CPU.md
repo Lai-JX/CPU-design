@@ -4,6 +4,22 @@
 >- 文件夹中的单周期仿真和流水线仿真均为可用于vivado进行仿真的工程项目。单周期的可跑trace的代码见本文件下方。
 >- 路径含中文可能出bug
 
+## 设计框图
+
+### 单周期CPU设计图
+
+![img](CPU.assets/单周期CPU整体框图.png)
+
+### 流水线CPU设计图
+
+- 流水线划分
+
+  ![img](CPU.assets/流水线划分.png)
+
+- 整体框图
+
+  ![img](CPU.assets/流水线CPU整体框图.png)
+
 
 
 ## CPU(trace代码)
